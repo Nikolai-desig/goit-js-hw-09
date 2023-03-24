@@ -2,6 +2,46 @@
   box-sizing: border-box;
 }
 
+/* page 1 */
+
+ul {
+  list-style: none;
+}
+
+.button__one {
+  padding: 15px 40px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #fafafa;
+  border: none;
+  opacity: 80%;
+
+  background: #2d2a2a;
+    box-shadow: 5px 9px 20px #242121,
+      -5px -7px 18px #363333;
+}
+
+/* page 2 */
+
+.timer {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.field {
+  margin: 10px;
+  font-size: 20;
+  font-weight: 500;
+}
+
+.field span:first-child {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
@@ -10,6 +50,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  text-align: center;
 }
 
 img {
